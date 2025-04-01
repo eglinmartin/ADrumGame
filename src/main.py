@@ -73,8 +73,8 @@ class Controller:
             Input.HIHAT: [Colours.YELLOW, 4],
             Input.HIHAT_OPEN: [Colours.YELLOW, 5],
             Input.RIDE: [Colours.CYAN, 4],
-            Input.CRASH1: [Colours.LIME, 8],
-            Input.CRASH2: [Colours.GREEN, 8],
+            Input.CRASH1: [Colours.GREEN, 8],
+            Input.CRASH2: [Colours.LIME, 8],
         }
 
         colour, size = confetti_dict.get(trigger)

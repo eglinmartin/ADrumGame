@@ -17,7 +17,7 @@ class Input(Enum):
 class Colours(Enum):
     BLACK = (26, 28, 44)
     PURPLE = (93, 39, 93)
-    RED = (117, 62, 83)
+    RED = (177, 62, 83)
     ORANGE = (239, 125, 87)
     YELLOW = (255, 205, 117)
     LIME = (167, 240, 112)
