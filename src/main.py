@@ -73,8 +73,8 @@ class Controller:
             Input.HIHAT: [Colours.YELLOW, 4],
             Input.HIHAT_OPEN: [Colours.YELLOW, 5],
             Input.RIDE: [Colours.CYAN, 4],
-            Input.CRASH1: [Colours.LIME, 8],
-            Input.CRASH2: [Colours.GREEN, 8],
+            Input.CRASH1: [Colours.GREEN, 8],
+            Input.CRASH2: [Colours.LIME, 8],
         }
 
         colour, size = confetti_dict.get(trigger)
@@ -415,6 +415,10 @@ def run_game(clock, screen, canvas, player, drum_kit, mixer, controller):
 
 def main():
     pygame.init()
+    pygame.display.set_caption("A Drum Game")
+
+    icon = pygame.image.load(r"C:\Storage\Programming\DrumsGame\bin\icon.png")
+    pygame.display.set_icon(icon)
 
     base_dir = r"C:\Storage\Programming\DrumsGame"
     pygame.mixer.init(channels=8)
