@@ -417,9 +417,6 @@ def main():
     pygame.init()
     pygame.display.set_caption("A Drum Game")
 
-    icon = pygame.image.load(r"C:\Storage\Programming\DrumsGame\bin\icon.png")
-    pygame.display.set_icon(icon)
-
     base_dir = r"C:\Storage\Programming\DrumsGame"
     pygame.mixer.init(channels=8)
     mixer = Mixer(base_dir)
